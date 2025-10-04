@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 20px;
+  background: white;
+  box-shadow: 0 1px 0 rgba(18, 40, 30, 0.04);
+}
+
+.logo {
+  font-weight: 800;
+  color: #00c896;
+}
+
+.actions .btn {
+  margin-left: 10px;
+}
+
+/* 2nd ----------- remove 2nd padding */
+/* .header {
+   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 20px;
+  position: relative;
+  background: white;
+  padding: 16px 24px;//-------------------
+  border-bottom: 4px solid transparent;
+  animation: pulse 4s infinite;
+} */
+/* @keyframes pulse {
+  0% { border-color: #00c896; }
+  50% { border-color: #00e0ff; }
+  100% { border-color: #00c896; }
+}
+.logo {
+  font-weight: 800;
+  color: #00c896;
+} */

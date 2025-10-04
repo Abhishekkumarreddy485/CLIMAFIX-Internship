@@ -1,0 +1,49 @@
+:root {
+  --accent: #13a37f;
+  --dark: #022;
+  --muted: #556;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial;
+  margin: 0;
+  color: var(--dark);
+  background: #f7fffb;
+}
+
+.muted {
+  color: var(--muted);
+}
+
+.btn {
+  display: inline-block;
+  padding: 8px 14px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.btn.primary {
+  background: var(--accent);
+  color: white;
+}
+
+.btn.ghost {
+  background: transparent;
+  border-color: #dfe;
+  color: var(--dark);
+}
+
+.btn.large {
+  padding: 12px 18px;
+}
+
+.btn.wide {
+  width: 100%;
+  display: inline-block;
+}

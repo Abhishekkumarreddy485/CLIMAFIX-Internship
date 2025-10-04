@@ -1,0 +1,136 @@
+.partners {
+  max-width: 1100px;
+  margin: 100px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+/* Header Section */
+.header {
+  margin-bottom: 32px;
+}
+
+.header h2 {
+  font-size: 32px;
+  font-weight: 800;
+  color: #062e2d;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  font-size: 16px;
+  color: #5a6e6c;
+}
+
+/* Partner Logos */
+.partnerLogos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  padding: 24px;
+  background: linear-gradient(145deg, #ffffff, #f5f9f8);
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.04);
+  transition: all 0.3s ease;
+}
+
+.partnerLogos:hover {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+}
+
+/* Individual Partner */
+.logoPill {
+  background: #ffffff;
+  padding: 12px 20px;
+  border-radius: 50px;
+  font-weight: 600;
+  color: #003f36;
+  font-size: 15px;
+  box-shadow: 0 6px 18px rgba(2, 20, 18, 0.05);
+  border: 1px solid #e6f1ee;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.logoPill:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+}
+
+/* Contact Section */
+.contactCard {
+  margin-top: 40px;
+  background: white;
+  padding: 28px;
+  border-radius: 16px;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.06);
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  transition: transform 0.2s ease;
+}
+
+.contactCard:hover {
+  transform: translateY(-4px);
+}
+
+.contactCard h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #07342f;
+  margin-bottom: 8px;
+}
+
+.contactCard p {
+  font-size: 15px;
+  color: #48655e;
+  line-height: 1.6;
+  margin-bottom: 8px;
+}
+
+.contactDetails {
+  margin-top: 12px;
+  font-size: 15px;
+  color: #062e2d;
+}
+
+.contactDetails strong {
+  color: #007f5f;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .header h2 {
+    font-size: 26px;
+  }
+
+  .partnerLogos {
+    padding: 16px;
+  }
+
+  .logoPill {
+    font-size: 14px;
+    padding: 10px 16px;
+  }
+
+  .contactCard {
+    padding: 20px;
+  }
+}
+
+.logoImg {
+  height: 70px;
+  max-width: 140px;
+  object-fit: contain;
+  background: white;
+  padding: 10px 16px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+  border: 1px solid #e6f1ee;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.logoImg:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+}
